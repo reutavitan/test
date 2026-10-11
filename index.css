@@ -1,0 +1,88 @@
+.navigation {
+   width: 100%; 
+   
+   margin: 0 auto;
+position: relative;
+
+}
+
+.logo{
+    display: inline-block;
+  
+     
+}
+.logo-img{
+      height:25px;
+    width: 25px;
+     display: inline-block;
+}
+nav {
+display: inline-block;
+
+position: absolute;
+left: 32%;
+ 
+
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-button{
+    position: absolute;
+    right: 0.1%;
+    display: inline-block;
+    
+}
+.sing{
+    color: rgb(252, 252, 252);
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.log-in{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.main{
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    height: 170px;
+    width: 700px;
+    left: 300px;
+
+
+}
+.Attach{
+    position: absolute;
+    display: inline-block;
+    
+}
+.Search{position: absolute;
+    display: inline-block;
+    left: 80px;
+}
+.Study {position: absolute;
+    display: inline-block;
+    left: 170px;
+}
+.Create-image{position: absolute;
+    display: inline-block;
+     left:260px;
+}
+.Voice {position: absolute;
+    display: inline-block;
+    right: 10px;
+}
+
+
+
+
+

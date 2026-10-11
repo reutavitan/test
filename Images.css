@@ -1,0 +1,32 @@
+.navigation {
+   width: 100%; 
+   
+   margin: 0 auto;
+position: relative;
+
+}
+
+.logo{
+    display: inline-block;
+  
+     
+}
+.logo-img{
+      height:25px;
+    width: 25px;
+     display: inline-block;
+}
+.sing{
+    color: rgb(252, 252, 252);
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.log-in{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 10px;
+}
