@@ -5,16 +5,60 @@
 position: relative;
 
 }
+html {
+    min-height: 100%;
+    background: linear-gradient(
+        to right,
+        #e8def8 0%,
+        #f5effa 30%,
+        #ffffff 50%,
+        #fff4eb 70%,
+        #ffeadb 100%
+    );
+}
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: transparent;
+}
 .logo{
     display: inline-block;
-  
+   color: black;
+    text-decoration: none;
      
+}
+.logo:hover,
+.logo:active,
+.logo:visited {
+    color: black;
+    text-decoration: none;
 }
 .logo-img{
       height:25px;
     width: 25px;
      display: inline-block;
+}
+nav {
+display: inline-block;
+
+position: absolute;
+left: 32%;
+ gap: 20px;
+
+}
+ul {
+  list-style-type: none;
+  display: inline-block;
+  
+}
+li {display: inline-block;
+ margin-right: 20px;}
+.nav-button{
+    position: absolute;
+    right: 0.1%;
+    display: inline-block;
+    
 }
 .sing{
     color: rgb(252, 252, 252);
@@ -26,7 +70,148 @@ position: relative;
     border: 1px solid black;
     border-radius: 10px;
 }
-button{
-    border: 1px solid black;
+.container{
+    margin-left: 300px;
+}
+.titel {
+    position: relative;
+   
+    width: 100%;
+    margin-top: 100px ;
+    
+}
+.button-nav{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    align-self: center;
+    
+}
+.titel h1 {
+    margin-right: 10px;
+}
+
+.titel p {
+    margin-right: 20px;
+    display: inline-block;
+    
+}
+.p+lt+gt{
+    position: relative;
+}
+
+.gt-button {
+    position: absolute;
+   
+   
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    left: 750px;
+    
+    
+}
+.gt-button-gallry{
+    position: absolute;
+   
+   
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    left: 750px;
+}
+.gallry-titel-p{
+    display: inline-block;
+    position: absolute;
+}
+.lt-button {
+    right: 60px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+   position: absolute;
+
+   left: 710px;
+   
+}
+.lt-button-gallry{
+    right: 60px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+   position: absolute;
+
+   left: 710px;
+}
+
+.image {
+    display: inline-block;
+    
+    margin: 10px;
+    vertical-align: top;
+    align-self: center;
+}
+
+.image figure {
+    margin: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 10px;
 }
+
+
+.image figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.images{
+   
+    width: 100%;
+     
+}
+.gallry-titel {
+    margin-top: 100px;
+    position: relative;
+    display: block;
+    
+}
+
+.block {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+     margin-top: 50px;
+}
+
+.card {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.card img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.card h5 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+

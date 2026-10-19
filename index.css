@@ -6,10 +6,18 @@ position: relative;
 
 }
 
-.logo{
+
+logo{
     display: inline-block;
-  
+   color: black;
+    text-decoration: none;
      
+}
+.logo:hover,
+.logo:active,
+.logo:visited {
+    color: black;
+    text-decoration: none;
 }
 .logo-img{
       height:25px;
@@ -21,14 +29,16 @@ display: inline-block;
 
 position: absolute;
 left: 32%;
- 
+ gap: 20px;
 
 }
 ul {
   list-style-type: none;
-  display: flex;
-  gap: 20px;
+  display: inline-block;
+  
 }
+li {display: inline-block;
+ margin-right: 20px;}
 .nav-button{
     position: absolute;
     right: 0.1%;
@@ -45,10 +55,7 @@ ul {
     border: 1px solid black;
     border-radius: 10px;
 }
-button{
-    border: 1px solid black;
-    border-radius: 10px;
-}
+
 .main{
     border: 2px solid black;
     border-radius: 20px;
@@ -56,31 +63,62 @@ button{
     top: 200px;
     height: 170px;
     width: 700px;
-    left: 300px;
+    left: 25%;
+    
+
+    padding: 20px;
+
+}
+.titel{
+    position: relative;
+     top: 200px;
+    left:500px;
 
 
 }
 .Attach{
     position: absolute;
     display: inline-block;
+    left: 40px;
     
 }
 .Search{position: absolute;
     display: inline-block;
-    left: 80px;
+    left: 120px;
 }
 .Study {position: absolute;
     display: inline-block;
-    left: 170px;
+    left: 205px;
+
 }
 .Create-image{position: absolute;
     display: inline-block;
-     left:260px;
+     left: 287px;
 }
 .Voice {position: absolute;
     display: inline-block;
-    right: 10px;
+    right: 20px;
+    
 }
+#Ask-anything {
+    border: none;
+    font-size: large;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   
+
+}
+button {
+    border-radius: 20px;
+    height: 40px;
+    box-shadow: 0 0 10px gray;
+}
+.images-a{
+    text-decoration: none; 
+    color: inherit; 
+}
+
 
 
 

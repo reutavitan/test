@@ -1,0 +1,128 @@
+.navigation {
+    width: 100%;
+
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.logo {
+    display: inline-block;
+
+
+}
+
+.logo-img {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+
+    position: absolute;
+    left: 32%;
+    gap: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button {
+    position: absolute;
+    right: 0.1%;
+    display: inline-block;
+
+}
+
+.sing {
+    color: rgb(252, 252, 252);
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.log-in {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button-nav {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    height: 450px;
+    margin: 80px auto;
+    background-color: white;
+    display: block;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #dce8e8;
+    display: inline-block;
+}
+
+.inner-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.small-text {
+    font-size: 13px;
+    color: #777;
+}
+
+button {
+    display: block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
